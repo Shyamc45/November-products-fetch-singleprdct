@@ -1,0 +1,72 @@
+body {
+    background-image: url('https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    /* background-color: #cecefb; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+}
+
+form {
+    /* background-color: #a6a6a600; */
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #222424;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 92%;
+}
+
+button {
+    padding: 8px;
+    background-color: #117bec;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 30%;
+    margin-left: 35%;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: #012751;
+}
